@@ -29,7 +29,7 @@ class Router extends IlluminateRouter
         $registrar = new ResourceRegistrar($this);
 
         return new PendingResourceRegistration(
-            $registrar, $name, $controller, $options
+        //    $registrar, $name, $controller, $options
         );
     }
 }
